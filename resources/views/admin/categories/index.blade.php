@@ -7,7 +7,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1>Категории</h1>
+                    <h1>Categories</h1>
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
@@ -25,7 +25,7 @@
 
             <div class="card">
                 <div class="card-header">
-                    <h3 class="card-title">Список категорий</h3>
+                    <h3 class="card-title">List</h3>
                 </div>
 
                 <div class="card-body">
