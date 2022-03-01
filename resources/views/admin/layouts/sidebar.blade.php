@@ -18,10 +18,10 @@
                with font-awesome or any other icon font library -->
 
                 <li class="nav-item">
-                    <a href="{{ route('categories.index') }}" class="nav-link active">
+                    <a href="{{ route('admin.index') }}" class="nav-link active">
                         <i class="nav-icon far fa-image"></i>
                         <p>
-                            Главная
+                            Home
                         </p>
                     </a>
                 </li>
@@ -30,7 +30,7 @@
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>
-                            Категории
+                            Category
                             <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
@@ -38,11 +38,11 @@
                         <li class="nav-item">
                             <a href="{{ route('categories.index') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Категория 1</p>
+                                <p>All categories</p>
                             </a>
-                            <a href="{{ route('categories.index') }}" class="nav-link">
+                            <a href="{{ route('categories.create') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Создать категорию</p>
+                                <p>Create category</p>
                             </a>
                         </li>
                     </ul>

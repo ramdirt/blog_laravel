@@ -16,7 +16,7 @@
                     <div class="card-body">
                         <div class="form-group">
                             <label>Title</label>
-                            <input type="email" class="form-control" value="{{ $category->title }}">
+                            <input type="text" class="form-control" name="title" value="{{ $category->title }}">
                         </div>
 
                     </div>
