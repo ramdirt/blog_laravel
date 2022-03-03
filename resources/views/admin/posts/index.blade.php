@@ -30,13 +30,15 @@
 
                 <div class="card-body">
                     <a href="{{ route('posts.create') }}" class="btn btn-block btn-primary mb-2 col-3">Create</a>
-                    @if (!empty($posts))
+                    @if (count($posts) != 0)
                         <table class="table table-bordered">
                             <thead>
                                 <tr>
                                     <th style="width: 10px">#</th>
-                                    <th>Post</th>
-                                    <th>Slug</th>
+                                    <th>Title</th>
+                                    <th>Category</th>
+                                    <th>Tags</th>
+                                    <th>Data</th>
                                     <th style="width: 130px">Action</th>
                                 </tr>
                             </thead>
@@ -46,7 +48,8 @@
                                     <tr>
                                         <td>{{ $post->id }}</td>
                                         <td>{{ $post->title }}</td>
-                                        <td>{{ $post->slug }}</td>
+                                        <td>Category</td>
+                                        <td>Tags</td>
                                         <td>
                                             <div class="row">
                                                 <div class="col">

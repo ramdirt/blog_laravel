@@ -17,7 +17,6 @@
                             <label>Title</label>
                             <input type="text" name="title" class="form-control" placeholder="Title">
                         </div>
-
                     </div>
 
                     <div class="card-footer">
