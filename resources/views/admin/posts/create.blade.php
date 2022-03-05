@@ -25,7 +25,7 @@
                             <textarea class="form-control mb-2" name="content" rows="3" placeholder="Enter ..."></textarea>
 
                             <label>Select category</label>
-                            <select class="form-control mb-2" name="rubric_id">
+                            <select class="form-control mb-2" name="category_id">
                                 <option value="Not category">Select category</option>
                                 @foreach ($categories as $id => $category)
                                     <option value="{{ $id }}">{{ $category }}</option>
@@ -35,7 +35,7 @@
 
                             <div class="form-group" data-select2-id="42">
                                 <label>Tags</label>
-                                <select name="tags" class="select2 select2-hidden-accessible" multiple="multiple"
+                                <select name="tags[]" class="select2 select2-hidden-accessible" multiple="multiple"
                                     data-placeholder="Select a State" style="width: 100%;" aria-hidden="true">
                                     @foreach ($tags as $id => $tag)
                                         <option data-select2-id="{{ $id }}" value="{{ $id }}">
@@ -45,11 +45,11 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="trumbnail">Trumbnail</label>
+                                <label for="thumbnail">Thumbnail</label>
                                 <div class="input-group">
                                     <div class="custom-file">
-                                        <input type="file" name="trumbnail" class="custom-file-input" id="trumbnail">
-                                        <label class="custom-file-label" name="trumbnail" for="trumbnail">Choose
+                                        <input type="file" name="thumbnail" class="custom-file-input" id="thumbnail">
+                                        <label class="custom-file-label" for="thumbnail">Choose
                                             file</label>
                                     </div>
                                 </div>
