@@ -30,14 +30,16 @@
 
                 <div class="card-body">
                     <a href="{{ route('posts.create') }}" class="btn btn-block btn-primary mb-2 col-3">Create</a>
-                    @if (!empty($posts))
+                    @if (count($posts) != 0)
                         <table class="table table-bordered">
                             <thead>
                                 <tr>
                                     <th style="width: 10px">#</th>
-                                    <th>Post</th>
-                                    <th>Slug</th>
-                                    <th style="width: 130px">Action</th>
+                                    <th>Title</th>
+                                    <th>Category</th>
+                                    <th>Tags</th>
+                                    <th>Data</th>
+                                    <th style="width: 150px">Action</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -46,18 +48,19 @@
                                     <tr>
                                         <td>{{ $post->id }}</td>
                                         <td>{{ $post->title }}</td>
-                                        <td>{{ $post->slug }}</td>
+                                        <td>{{ $post->category->title }}</td>
+                                        <td>{{ $post->tags->pluck('title')->join(',') }}</td>
+                                        <td>{{ $post->created_at }}</td>
                                         <td>
                                             <div class="row">
                                                 <div class="col">
-                                                    <a href="{{ route('categories.edit', $post->id) }}"
+                                                    <a href="{{ route('posts.edit', $post->id) }}"
                                                         class=" btn btn-default">
                                                         <i class="fas fa-edit"></i>
                                                     </a>
                                                 </div>
                                                 <div class="col">
-                                                    <form action="{{ route('categories.destroy', $post->id) }}"
-                                                        method="post">
+                                                    <form action="{{ route('posts.destroy', $post->id) }}" method="post">
                                                         @csrf
                                                         @method('DELETE')
                                                         <button type="submit" class="btn btn-danger">
