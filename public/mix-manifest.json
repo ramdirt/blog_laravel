@@ -1,6 +1,8 @@
 {
     "/assets/admin/plugins/css/admin.css": "/assets/admin/plugins/css/admin.css",
+    "/assets/user/plugins/css/user.css": "/assets/user/plugins/css/user.css",
     "/assets/admin/js/admin.js": "/assets/admin/js/admin.js",
+    "/assets/user/js/user.js": "/assets/user/js/user.js",
     "/assets/admin/plugins/webfonts/fa-brands-400.eot": "/assets/admin/plugins/webfonts/fa-brands-400.eot",
     "/assets/admin/plugins/webfonts/fa-brands-400.svg": "/assets/admin/plugins/webfonts/fa-brands-400.svg",
     "/assets/admin/plugins/webfonts/fa-brands-400.ttf": "/assets/admin/plugins/webfonts/fa-brands-400.ttf",
@@ -42,5 +44,20 @@
     "/assets/admin/img/user5-128x128.jpg": "/assets/admin/img/user5-128x128.jpg",
     "/assets/admin/img/user6-128x128.jpg": "/assets/admin/img/user6-128x128.jpg",
     "/assets/admin/img/user7-128x128.jpg": "/assets/admin/img/user7-128x128.jpg",
-    "/assets/admin/img/user8-128x128.jpg": "/assets/admin/img/user8-128x128.jpg"
+    "/assets/admin/img/user8-128x128.jpg": "/assets/admin/img/user8-128x128.jpg",
+    "/assets/user/plugins/webfonts/fa-brands-400.eot": "/assets/user/plugins/webfonts/fa-brands-400.eot",
+    "/assets/user/plugins/webfonts/fa-brands-400.svg": "/assets/user/plugins/webfonts/fa-brands-400.svg",
+    "/assets/user/plugins/webfonts/fa-brands-400.ttf": "/assets/user/plugins/webfonts/fa-brands-400.ttf",
+    "/assets/user/plugins/webfonts/fa-brands-400.woff": "/assets/user/plugins/webfonts/fa-brands-400.woff",
+    "/assets/user/plugins/webfonts/fa-brands-400.woff2": "/assets/user/plugins/webfonts/fa-brands-400.woff2",
+    "/assets/user/plugins/webfonts/fa-regular-400.eot": "/assets/user/plugins/webfonts/fa-regular-400.eot",
+    "/assets/user/plugins/webfonts/fa-regular-400.svg": "/assets/user/plugins/webfonts/fa-regular-400.svg",
+    "/assets/user/plugins/webfonts/fa-regular-400.ttf": "/assets/user/plugins/webfonts/fa-regular-400.ttf",
+    "/assets/user/plugins/webfonts/fa-regular-400.woff": "/assets/user/plugins/webfonts/fa-regular-400.woff",
+    "/assets/user/plugins/webfonts/fa-regular-400.woff2": "/assets/user/plugins/webfonts/fa-regular-400.woff2",
+    "/assets/user/plugins/webfonts/fa-solid-900.eot": "/assets/user/plugins/webfonts/fa-solid-900.eot",
+    "/assets/user/plugins/webfonts/fa-solid-900.svg": "/assets/user/plugins/webfonts/fa-solid-900.svg",
+    "/assets/user/plugins/webfonts/fa-solid-900.ttf": "/assets/user/plugins/webfonts/fa-solid-900.ttf",
+    "/assets/user/plugins/webfonts/fa-solid-900.woff": "/assets/user/plugins/webfonts/fa-solid-900.woff",
+    "/assets/user/plugins/webfonts/fa-solid-900.woff2": "/assets/user/plugins/webfonts/fa-solid-900.woff2"
 }
